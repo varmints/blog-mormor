@@ -29,11 +29,16 @@ const { activeNav } = Astro.props;
             <a
               href="https://mormor.dev"
               class="text-2xl uppercase hover:text-skin-accent"
+              title="Return to mormor.dev home page"
             >
-              {SITE.title}
+              {SITE.shortTitle}
             </a>
-            |
-            <a href="/" class="px-2 text-2xl uppercase hover:text-skin-accent">
+            <span class="px-2">|</span>
+            <a
+              href="/"
+              class="text-2xl uppercase hover:text-skin-accent"
+              title="Return to blog.mormor.dev blog page"
+            >
               blog
             </a>
           </div>

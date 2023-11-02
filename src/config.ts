@@ -3,8 +3,9 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://blog.mormor.dev/", // replace this with your deployed domain
   author: "mormor",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "mormor",
+  desc: "Welcome to mormor's blog, your go-to destination for all things frontend development! Dive into the world of web design, user experience, and cutting-edge technologies as we explore the latest trends, share expert insights, and provide step-by-step tutorials.",
+  title: "blog.mormor.dev",
+  shortTitle: "mormor",
   ogImage: "mormorpaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
