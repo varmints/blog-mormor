@@ -123,6 +123,12 @@
   pre > code {
     white-space: pre;
   }
+
+  @media (hover: hover) {
+    .clear-button {
+      @apply hover:text-skin-accent;
+    }
+  }
 }
 
 @layer components {
